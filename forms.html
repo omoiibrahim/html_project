@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Forms</title>
+  <style>
+    input {background-color: #b3d4fc;padding: 5px;border: 2px solid royalblue;
+      margin: 5px  }
+    label{color: lightcoral;padding: 3px;font-size: math;border-radius:
+      5px;background-color: greenyellow   }
+    form{background-color:lightslategray }
+    h2{text-align: center ;background-color:lightslategray }
+button{background-color: #d78459 }
+  </style>
+</head>
+<body>
+<h2>Student Registration Form</h2>
+<form action ="iframe.html" method ="post" >
+  <label for ="fname">Full Names</label><br>
+  <input type ="text" id="fname" placeholder="Enter your name" ><br>
+  <label for="email">Email Address</label><br>
+  <input type ="email" id="email" placeholder="Enter your email address" ><br>
+  <label for="pno">Phone No</label><br>
+  <input type ="text" id="pno" placeholder="Enter your phone no" ><br>
+  <label for="dob">Date of Birth</label><br>
+  <input type ="date" id="dob"><br>
+  <label for="male">Male</label><br>
+  <input type="radio" id="male" name="gender"><br>
+
+  <label for="female">Female</label><br>
+  <input type="radio" id="female" name="gender"><br>
+  <label for="course">Courses Taken</label>
+  <select name="course" id="course">
+  <option value="Javascript">Javascript</option>
+  <option value="Python">Python</option>
+  <option value="Cyber security">Cyber Security</option>
+  <option value="Coding">Coding</option>
+  <option value="Programming">Programming</option>
+  <option value="System Development">System Development</option>
+  <option value="Full satack Development">Full Stack Development</option>
+ </select> <br><br>
+  <label for="image">Upload Picture</label>
+  <input type="file" id="image"><br><br>
+
+  <label for="password">Password</label><br>
+  <input type ="password" id="password" placeholder="Enter your password" ><br>
+  <input type ="submit" value="Register Here!!!" ><br>
+
+</form>
+<button type="button" onclick="alert('safari lab morning class')" >Click HERE</button>
+</body>
+</html>
